@@ -1,0 +1,12 @@
+Package: TheBlueAlliance
+Version: 0.1
+Title: Use FIRST Robotics Competition data from thebluealliance.com
+Description: Download data about FRC events using the API supplied
+  by thebluealliance.com, including time series of robot locations determined
+  by Zebra Motionworks devices.  There are also some functions to estimate
+  and plot speeds and accelerations of those locations.
+Date: 2022-03-30
+Author: Bill Dunlap
+Maintainer: Bill Dunlap <williamwdunlap@gmail.com>
+Imports: httr, jsonlite
+Licence: Artistic-2.0
